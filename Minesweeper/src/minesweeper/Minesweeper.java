@@ -9,6 +9,7 @@ import java.util.Scanner;
 /**
  *
  * @author ribell
+ * Launa Romrell was here
  */
 public class Minesweeper {
     
