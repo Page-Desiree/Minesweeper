@@ -19,7 +19,8 @@ public class Minesweeper {
              Minesweeper myGame = new Minesweeper();
                  myGame.getName();
                  myGame.displayHelp();
-             
+                 Board board = new Board();
+                 board.displaySize();
     }
         public void getName() {
             Scanner input = new Scanner(System.in);
@@ -32,4 +33,6 @@ public class Minesweeper {
             System.out.println("\nWelcome " + this.name + "\n");
             System.out.println(this.instructions);
         }
+        
+        
 }
