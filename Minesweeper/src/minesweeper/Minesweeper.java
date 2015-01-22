@@ -5,17 +5,31 @@
  */
 package minesweeper;
 
+import java.util.Scanner;
 /**
  *
  * @author ribell
  */
 public class Minesweeper {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+        String name;
+        String instructions = "Click on the squares but don't hit mines!!!";
+
+        public static void main(String[] args) {
+             Minesweeper myGame = new Minesweeper();
+                 myGame.getName();
+                 myGame.displayHelp();
+             
+    }
+        public void getName() {
+            Scanner input = new Scanner(System.in);
+            System.out.println("Enter you name: ");
+            this.name = input.next();
+            
+        }
+        
+        public void displayHelp() {
+            System.out.println("\nWelcome " + this.name + "\n");
+            System.out.println(this.instructions);
+        }
 }
