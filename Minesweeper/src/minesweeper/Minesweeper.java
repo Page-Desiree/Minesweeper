@@ -8,7 +8,7 @@ package minesweeper;
 import java.util.Scanner;
 /**
  *
- * @author ribell
+ * @author Rich Bell
  * Launa Romrell was here
  */
 public class Minesweeper {

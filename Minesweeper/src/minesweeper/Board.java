@@ -9,7 +9,7 @@ import java.awt.Point;
 import javax.swing.table.AbstractTableModel;
 /**
  *
- * @author ribell
+ * @author Rich Bell
  */
 public class Board {
     
